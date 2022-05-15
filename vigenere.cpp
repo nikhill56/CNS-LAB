@@ -27,10 +27,4 @@ int main(){
 	cout<<decrypt;
 	return 0;	
 }
-		char c=((((result[j]-key[j])+26)%26)+'a');
-
-		decrypt.push_back(c);
-	}
-	cout<<decrypt;
-	return 0;	
-}
+		
